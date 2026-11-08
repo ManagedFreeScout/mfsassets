@@ -1,0 +1,28 @@
+{
+  "name": "stackpros/freescout-mfsassets",
+  "description": "FreeScout module — asset management on top of MFS Organisations.",
+  "license": "AGPL-3.0-only",
+  "authors": [
+    {
+      "name": "StackPros",
+      "email": "support@stackpros.io"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\MFSAssets\\Providers\\MFSAssetsServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\MFSAssets\\": ""
+    }
+  }
+}

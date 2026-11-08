@@ -1,0 +1,22 @@
+{
+  "name": "MFS Assets",
+  "alias": "mfsassets",
+  "description": "Asset management for FreeScout: register devices and other assets per organisation, see who uses them and where they are, and link them to conversations.",
+  "version": "0.1.0",
+  "author": "StackPros",
+  "keywords": [],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\MFSAssets\\Providers\\MFSAssetsServiceProvider"
+  ],
+  "authorUrl": "https://managedfreescout.com",
+  "aliases": {},
+  "files": [
+    "start.php"
+  ],
+  "img": "/modules/mfsassets/img/mfsassets-icon.png?v=1.0.0",
+  "requires": [],
+  "latestVersionUrl": "https://raw.githubusercontent.com/ManagedFreeScout/mfsassets/main/version.txt",
+  "latestVersionZipUrl": "https://github.com/ManagedFreeScout/mfsassets/releases/latest/download/mfsassets.zip"
+}
